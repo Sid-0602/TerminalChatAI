@@ -1,0 +1,17 @@
+{
+  "name": "terminalchatai",
+  "version": "1.0.0",
+  "description": "A terminal Chatbot powered by ChatGPT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Siddhant J",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "openai": "^4.12.1",
+    "readline-sync": "^1.4.10"
+  }
+}
