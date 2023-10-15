@@ -1,12 +1,4 @@
-import { OpenAI } from 'openai';
-import dotenv from 'dotenv';
-dotenv.config();
-
-
-const openai = new OpenAI({
-    apiKey: process.env.OPENAI_API_KEY,
-});
-
+import openai from './config/open-ai.js';
 async function main() {
     const chatCompletion = await openai.chat.completions.create({
         model: 'gpt-3.5-turbo',
